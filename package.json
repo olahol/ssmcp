@@ -1,0 +1,22 @@
+{
+  "name": "ssmcp",
+  "version": "0.1.0",
+  "description": "Simple Stateless Model Context Protocol",
+  "main": "main.mjs",
+  "bin": "cli.mjs",
+  "author": "Ola",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test test.mjs",
+    "test:coverage": "node --test --experimental-test-coverage --test-reporter=lcov --test-reporter-destination=lcov.info test.mjs"
+  },
+  "files": [
+    "lib.mjs"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.18"
+  }
+}
